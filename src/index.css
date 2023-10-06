@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+:root, body {
+  @apply bg-black text-white h-full w-full;
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url('/Syne-ExtraBold.ttf') format('truetype');
+  font-weight: 900;
+}
