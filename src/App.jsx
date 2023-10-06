@@ -15,19 +15,24 @@ import {
 import { useMeasure } from "@uidotdev/usehooks";
 import { useEffect } from "react";
 
+import slide1 from "./assets/slide1.webp";
+import slide2 from "./assets/slide2.webp";
+import slide3 from "./assets/slide3.webp";
+import slide4 from "./assets/slide4.webp";
+
 const slides = [
-  "/slide1.webp",
-  "/slide2.webp",
-  "/slide3.webp",
-  "/slide4.webp",
-  "/slide1.webp",
-  "/slide2.webp",
-  "/slide3.webp",
-  "/slide4.webp",
-  "/slide1.webp",
-  "/slide2.webp",
-  "/slide3.webp",
-  "/slide4.webp",
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide1,
+  slide2,
+  slide3,
+  slide4,
 ];
 
 const snap = (value, snapValue) => {
